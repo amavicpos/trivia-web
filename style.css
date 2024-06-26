@@ -4,12 +4,12 @@ body {
     align-items: center;
     justify-content: center;
     height: 75vh;
-    background-color: rgb(212, 163, 115);
+    background-color: rgb(137, 49, 239);
 }
 
 #question {
     text-align: center;
-    color: rgb(250, 237, 205);
+    color: rgb(242, 202, 25);
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-style: normal;
     font-variant: normal;
@@ -21,7 +21,7 @@ body {
 .answer {
     list-style-type: none;
     text-align: center;
-    color: rgb(254, 250, 224);
+    color: rgb(242, 202, 25);
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-style: normal;
     font-variant: normal;
