@@ -1,5 +1,5 @@
 # Trivia Web Application
-This repository contains a web-based trivia application with data from [[The Trivia API](https://the-trivia-api.com)]. [[Click here to visit Trivia Web](https://amavicpos.github.io/trivia-web/)]
+This repository contains a web-based trivia application with data from [The Trivia API](https://the-trivia-api.com). [Click here to visit Trivia Web](https://amavicpos.github.io/trivia-web/)
 
 ## Description
 The applications consists of a simple trivia game with questions of general topics and a score counter that resets when the page is refreshed.
