@@ -9,7 +9,7 @@ const getSetQuestion = async () => {
         const data = await res.json();
 
         document.removeEventListener("click", handler, true);
-        answers.forEach(element => element.style.color = `rgb(254, 250, 224)`);
+        answers.forEach(element => element.style.color = `rgb(250, 237, 205)`);
         question.textContent = data[0].question.text;
         const answers_text = [data[0].correctAnswer];
         for (let value = 0; value < 3; value++) {
