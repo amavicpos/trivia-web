@@ -31,7 +31,7 @@ function handler(e) {
 const condition = () => {
     answers.forEach(element => {
         if (element === correctAns) {
-            element.addEventListener('click', _ => element.style.color = 'green');
+            element.addEventListener('click', _ => element.style.color = '#A3FFA3');
             element.addEventListener('click', _ => { document.addEventListener("click", handler, true) });
             element.addEventListener('click', _ => {
                 ++counterCorrect;
@@ -40,9 +40,9 @@ const condition = () => {
             });
         } else {
             element.addEventListener('click', _ => {
-                element.style.color = 'red';
+                element.style.color = '#F8B7B7';
                 document.addEventListener("click", handler, true);
-                setTimeout(() => correctAns.style.color = 'green', 1000);
+                setTimeout(() => correctAns.style.color = '#A3FFA3', 1000);
                 setTimeout(() => {
                     ++counterTotal;
                     document.querySelector('p').textContent = `Correct answers: ${counterCorrect}/${counterTotal}`;
@@ -54,13 +54,13 @@ const condition = () => {
 
 const colour = (element) => {
     if (element === correctAns) {
-        element.style.color = 'green';
+        element.style.color = '#A3FFA3';
         ++counterCorrect;
         ++counterTotal;
         document.querySelector('p').textContent = `Correct answers: ${counterCorrect}/${counterTotal}`;
     } else {
-        element.style.color = 'red';
-        setTimeout(() => correctAns.style.color = 'green', 1000);
+        element.style.color = '#F8B7B7';
+        setTimeout(() => correctAns.style.color = '#A3FFA3', 1000);
         ++counterTotal;
         document.querySelector('p').textContent = `Correct answers: ${counterCorrect}/${counterTotal}`;
     }
